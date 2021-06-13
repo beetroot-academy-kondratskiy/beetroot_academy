@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "lato";
+    src: url(fonts/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: "lato";
+    src: url(fonts/Lato-Light.ttf);
+}
+@font-face {
+    font-family: "lato";
+    src: url(fonts/Lato-Bold.ttf);
+}
+.page {
+    font-family: "lato";
+    background-image: url(img/hero-bg.jpg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header {
+    height: 1072px;
+    margin-top: 285px;
+    color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header__img {
+    padding-bottom: 94px;
+}
+.header__text--big {
+    padding-bottom: 53px;
+    font-size: 54px;
+}
+.header__text--small {
+    font-size: 15px;
+}
+.about {
+    background: #ffff;
+    padding-bottom: 160px;
+}
+.services {
+    padding-bottom: 105px;
+
+}
+.we__img {
+    size: 100%;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 190px;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+}
