@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="page">
+    <header class="header">
+        <div class="topnav " id="myTopnav">
+            <a href="#" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>
+          <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+          </script>
+        <div class="container ">
+            <div class="header__inner">
+                <div class="header-content">
+                    <h1 class="header-content__title">Fresh Life</h1>
+                    <p class="header-content__description">Sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                    </p>
+                    <button class="header-content__btn" href="#">Get free now</button>
+                </div>
+                <div class="header-content__scroll">
+                    <img class="scroll-img" src="scroll.png" alt="icon">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="about" class="about">
+        <div class="container-about">
+            <div class="about-content">
+                <img class="about-content__img" src="raspberry.png" alt="raspberry">
+                <div class="content-text">
+                    <h1 class="content-text__title title">
+                        About Us
+                    </h1>
+                    <div class="content-text__description">
+                        <p>
+                            Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                            velit esse cillum.
+                        </p>
+                        <br>
+                        <p>
+                            Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                            accusantium
+                            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="services">
+        <div class="container">
+            <div class="services__inner">
+                <div class="services__items">
+                    <div class="services__list">
+                        <button class="services__item">
+                            <a class="services__link" href="#">Online Shopping</a>
+                            <img class="services__icon" src="icon-1.svg" alt="icon">
+                        </button>
+                        <button class="services__item">
+                            <a class="services__link" href="#">Quality Product</a>
+                            <img class="services__icon" src="icon-2.svg" alt="icon">
+                        </button>
+                        <button class="services__item services__item-long">
+                            <a class="services__link services__link-long" href="#">Domestic & International Delivery</a>
+                            <img class="services__icon" src="icon-3.svg" alt="icon">
+                        </button>
+                        <button class="services__item">
+                            <a class="services__link" href="#">Well Organized</a>
+                            <img class="services__icon" src="icon-4.svg" alt="icon">
+                        </button>
+                    </div>
+                </div>
+                <div class="services__text">
+                    <h1 class="services__content-title title">Our Services</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="gallery__inner">
+                <h1 class="gallery__title title">
+                    Gallery
+                </h1>
+                <p class="gallery__subtitle">
+                    Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                    enim ad
+                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <div class="gallery__items">
+                    <div class="gallery__item gallery__item-1">
+                        <img class="gallery__item-img--1 img" src="gallery-1.jpg" alt="gallery image">
+                    </div>
+                    <div class="righted-items">
+                        <div class="gallery__item gallery__item-2">
+                            <img class="gallery__item-img--2 img" src="gallery-2.jpg" alt="gallery image">
+                        </div>
+                        <div class="gallery__item gallery__item-3">
+                            <img class="gallery__item-img--3 img" src="gallery-3.jpg" alt="gallery image">
+                        </div>
+                    </div>
+                    <div class="gallery__item gallery__item-4 img">
+                        <img class="gallery__item-img--4" src="gallery-4.jpg" alt="gallery image">
+                    </div>
+                    <div class="gallery__item gallery__item-5 img">
+                        <img class="gallery__item-img--5" src="gallery-5.jpg" alt="gallery image">
+                    </div>
+                </div>
+                <button type="button" class="btn btn-dark gallery__button">view more</button>
+            </div>
+        </div>
+    </section>
+    <section id="subscribe" class="subscribe">
+        <div class="container">
+            <div class="subscribe__inner">
+                <h4 class="subscribe__title">
+                    Subsribe To Us
+                </h4>
+                <p class="subscribe__subtitle">
+                    Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                </p>
+                <div class="subscribe__form">
+                    <input class="subscribe__input" type="email" placeholder="Your email address">
+                    <button class="subscribe__button" type="submit">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="blog" class="blog">
+        <div class="container">
+                <header class="blog__header">
+                    <div class="header__title">
+                        <h1>Blog</h1>
+                    </div>
+                    <div class="header__subtitle">
+                        <p>
+                            Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.
+                        </p>
+                    </div>                
+                </header>
+            <div class="recipes">
+                <div class="recipe recipe-first">
+                    <img class="recipe__img" src="1.png" alt="background">
+                </div>
+                <div class="recipe">
+                    <img class="recipe__img" src="2.png" alt="background">
+                </div>
+                <div class="recipe">
+                    <img class="recipe__img" src="3.png" alt="background">
+                </div>
+            </div>
+            <button class="recipe__button"><a class="btn-link" href="#popup">view more</a></button>
+        </div>
+    </section>
+    <div id="contact" class="form-content">
+        <div class="container container--contact">
+            <header class="form-content__top">
+                <div class="form-content__inner">
+                    <div class="form-content__text">
+                        <h1 class="form-content__title">Contact</h1>
+                        <p class="form-content__subtitle">
+                            For new projects, ideas, business or anything
+                            you'd like to discuss, contact with me!
+                        </p>
+                    </div>
+                </div>
+            </header>
+            <section class="form">
+                <div class="form-info">
+                    <div class="form-data">
+                        <div class="form-data__input">
+                            <input class="form__input" type="text" placeholder="Auskteez Tran">
+                        </div>
+                        <div class="form-data__input">
+                            <input class="form__input" type="email" placeholder="Your email...">
+                        </div>
+                        <div class="form-data__input">
+                            <input class="form__input" type="tel" placeholder="Your phone number...">
+                        </div>
+                        <textarea class="form__message" placeholder="Your message..."></textarea>
+                    </div>
+                    <div class="form-adrress">
+                        <h4 class="form-address__title">Address</h4>
+                        <p class="form-address__subtitle">123 City name, Street, City, Country</p>
+                        <h4 class="form-address__title">Email</h4>
+                        <p class="form-address__subtitle">cahee@domain.com</p>
+                        <h4 class="form-address__title">Phone</h4>
+                        <p class="form-address__subtitle">+012 345 6789</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__copyright">
+                    <p>&copy; 2015 Company. All right reserved.</p>
+                </div>
+                <div class="footer__logo">
+                    <img src="logo-small.png" alt="logo">
+                </div>
+                <div class="footer__about">
+                    <p>Made with <span class="love">love</span> by Auskteez</p>
+                </div>     
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
