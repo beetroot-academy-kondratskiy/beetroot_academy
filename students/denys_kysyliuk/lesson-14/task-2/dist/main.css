@@ -197,7 +197,8 @@ img {
 
 .services__text {
   -webkit-transform: translate(190px, 130px);
-          transform: translate(190px, 130px);
+          -ms-transform: translate(190px, 130px);
+      transform: translate(190px, 130px);
 }
 
 .gallery {
@@ -481,8 +482,10 @@ img {
 .recipe:hover .background {
   opacity: 0.3;
   -webkit-transform: scaleX(1.2);
-          transform: scaleX(1.2);
+          -ms-transform: scaleX(1.2);
+      transform: scaleX(1.2);
   -webkit-transition: all .8s;
+  -o-transition: all .8s;
   transition: all .8s;
 }
 

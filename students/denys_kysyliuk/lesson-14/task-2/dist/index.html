@@ -118,7 +118,12 @@
                 </p>
                 <div class="gallery__items">
                     <div class="gallery__item gallery__item-1">
-                        <img class="gallery__item-img--1 img" src="gallery-1.jpg" alt="gallery image">
+                        <picture>
+                            <source media="(max-resolution: 1dppx)" srcset="Coca-Cola_logo.svg">
+                            <source media="(max-resolution: 2dppx)" srcset="gallery-1.jpg">
+                            <source media="(max-resolution: 3dppx)" srcset="tort-ideal-mujskoi_1568143869_11_max.jpg">
+                            <img class="gallery__item-img--1 img" src="gallery-1.jpg" alt="">
+                        </picture>
                     </div>
                     <div class="righted-items">
                         <div class="gallery__item gallery__item-2">
